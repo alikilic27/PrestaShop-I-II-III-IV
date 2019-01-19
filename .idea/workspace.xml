@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="329f0f2f-5550-439e-a390-6d6fee7b098a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-233128519">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/functional_tests/Positive/AddToCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/prestashop/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/prestashop/tests/functional_tests/Positive/AddToCart.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Prestashop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Prestashop" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Prestashop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Prestashop" type="616d4139:PackageViewModuleNode" />
+              <item name="com.prestashop" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Prestashop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Prestashop" type="616d4139:PackageViewModuleNode" />
+              <item name="com.prestashop" type="1f31426a:PackageElementNode" />
+              <item name="tests" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Prestashop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Prestashop" type="616d4139:PackageViewModuleNode" />
+              <item name="com.prestashop" type="1f31426a:PackageElementNode" />
+              <item name="tests" type="1f31426a:PackageElementNode" />
+              <item name="functional_tests" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Prestashop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Prestashop" type="616d4139:PackageViewModuleNode" />
+              <item name="com.prestashop" type="1f31426a:PackageElementNode" />
+              <item name="tests" type="1f31426a:PackageElementNode" />
+              <item name="functional_tests" type="1f31426a:PackageElementNode" />
+              <item name="Positive" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547862055350" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.AddToCart">
+    <configuration name="Account" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prestashop.tests.smoke_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prestashop.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.prestashop.tests.smoke_tests.Account" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prestashop.tests.functional_tests.Positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prestashop.tests.functional_tests.Positive" />
+      <option name="MAIN_CLASS_NAME" value="com.prestashop.tests.functional_tests.Positive.AddToCart" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCart.addToCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prestashop.tests.functional_tests.Positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prestashop.tests.functional_tests.Positive" />
+      <option name="MAIN_CLASS_NAME" value="com.prestashop.tests.functional_tests.Positive.AddToCart" />
+      <option name="METHOD_NAME" value="addToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartDetails" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prestashop.tests.functional_tests.Positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prestashop.tests.functional_tests.Positive" />
+      <option name="MAIN_CLASS_NAME" value="com.prestashop.tests.functional_tests.Positive.CartDetails" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Product.verifyPriceAndName" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Prestashop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prestashop.tests.smoke_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prestashop.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.prestashop.tests.smoke_tests.Product" />
+      <option name="METHOD_NAME" value="verifyPriceAndName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.AddToCart.addToCart" />
+      <item itemvalue="TestNG.CartDetails" />
+      <item itemvalue="TestNG.Account" />
+      <item itemvalue="TestNG.Product.verifyPriceAndName" />
+      <item itemvalue="TestNG.AddToCart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddToCart" />
+        <item itemvalue="TestNG.CartDetails" />
+        <item itemvalue="TestNG.Product.verifyPriceAndName" />
+        <item itemvalue="TestNG.AddToCart.addToCart" />
+        <item itemvalue="TestNG.Account" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="329f0f2f-5550-439e-a390-6d6fee7b098a" name="Default Changelist" comment="" />
+      <created>1547861469155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547861469155</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AddToCart_addToCart - 2019.01.18 at 20h 32m 14s.xml">
+      <configuration name="AddToCart.addToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CartDetails - 2019.01.18 at 20h 32m 42s.xml">
+      <configuration name="CartDetails" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Account - 2019.01.18 at 20h 33m 05s.xml">
+      <configuration name="Account" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddToCart_addToCart - 2019.01.18 at 20h 33m 27s.xml">
+      <configuration name="AddToCart.addToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Product_verifyPriceAndName - 2019.01.18 at 20h 34m 05s.xml">
+      <configuration name="Product.verifyPriceAndName" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CartDetails - 2019.01.18 at 20h 35m 05s.xml">
+      <configuration name="CartDetails" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddToCart - 2019.01.18 at 20h 38m 06s.xml">
+      <configuration name="AddToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddToCart - 2019.01.18 at 20h 38m 49s.xml">
+      <configuration name="AddToCart" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/functional_tests/Negative/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/utilities/FakerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/smoke_tests/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/functional_tests/Positive/CartDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/smoke_tests/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prestashop/tests/functional_tests/Positive/AddToCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
