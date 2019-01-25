@@ -1,54 +1,52 @@
 package com.prestashop.utilities;
 
-import com.sun.java.swing.action.AboutAction;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+import com.prestashop.pages.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.asserts.SoftAssert;
 
-import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     protected WebDriver driver;
     protected Actions actions;
+    protected SoftAssert softAssert;
 
-    @BeforeClass
-    public void setUpBrowser() {
-        WebDriverManager.chromedriver().setup();
-    }
+    protected HomePage homePage;
+    protected IdentityPage identityPage;
+    protected ItemPage itemPage;
+    protected MyAccountPage myAccountPage;
+    protected OrderPage orderPage;
+    protected RegistrationPage registrationPage;
+    protected SearchPage searchPage;
+    protected SignInPage signInPage;
 
     @BeforeMethod
-    public void setUpDriver() throws InterruptedException {
-        driver = new ChromeDriver();
+    public void setUpDriver() {
+        driver = Driver.getDriver();
+        softAssert= new SoftAssert();
         actions= new Actions(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        initializePageObjects();
     }
 
     @AfterMethod
     public void tearDown() {
-         driver.quit();
+        softAssert.assertAll();
+        Driver.closeDriver();
     }
 
-    public void login() {
-        driver.get("http://automationpractice.com");
-        driver.findElement(By.xpath("//a[@title='Log in to your customer account']")).click();
-        driver.findElement(By.id("email")).sendKeys("a111@gmail.com");
-        driver.findElement(By.id("passwd")).sendKeys("12345");
-        driver.findElement(By.id("SubmitLogin")).click();
+    public void initializePageObjects(){
+        homePage= new HomePage();
+        identityPage= new IdentityPage();
+        itemPage= new ItemPage();
+        myAccountPage= new MyAccountPage();
+        orderPage= new OrderPage();
+        registrationPage= new RegistrationPage();
+        searchPage= new SearchPage();
+        signInPage= new SignInPage();
     }
 
-    public void search(String item) {
-        driver.findElement(By.id("search_query_top")).clear();
-        driver.findElement(By.id("search_query_top")).sendKeys(item + Keys.ENTER);
-    }
-    public void addToCart(){
-        actions.moveToElement(driver.findElement(By.xpath("//a[@class='product_img_link']"))).perform();
-        driver.findElement(By.xpath("//a[@title='Add to cart']")).click();
-    }
 }
